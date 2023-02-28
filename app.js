@@ -34,14 +34,14 @@ let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
-crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
+let CSS = document.getElementById("CSS");
+crearBarra(CSS);
+let Node = document.getElementById("Node");
+crearBarra(Node);
 let php = document.getElementById("php");
 crearBarra(php);
-let ilustrator = document.getElementById("ilustrator");
-crearBarra(ilustrator);
+let Express = document.getElementById("Express");
+crearBarra(Express);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
 //para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
@@ -60,19 +60,19 @@ function efectoHabilidades(){
             pintarBarra(html, 16, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 11, 1, intervalJavascript);
+            pintarBarra(javascript, 19, 1, intervalJavascript);
         },100);
-        const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 11, 2, intervalWordpress);
+        const intervalCSS = setInterval(function(){
+            pintarBarra(CSS, 11, 2, intervalCSS);
         },100);
-        const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+        const intervalNode = setInterval(function(){
+            pintarBarra(Node, 15, 3, intervalNode);
         },100);
         const intervalPhp = setInterval(function(){
-            pintarBarra(php, 16, 4, intervalPhp);
+            pintarBarra(php, 10, 4, intervalPhp);
         },100);
-        const intervalIlustrator = setInterval(function(){
-            pintarBarra(ilustrator, 11, 5, intervalIlustrator);
+        const intervalExpress = setInterval(function(){
+            pintarBarra(Express, 15, 5, intervalExpress);
         },100);
     }
 }
